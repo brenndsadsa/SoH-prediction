@@ -22,7 +22,7 @@ col_logo, col_text = st.columns([10, 40])
 
 with col_logo:
     # Hệ thống sẽ tìm file AEE.jpeg trong cùng thư mục trên GitHub của bạn
-    st.image("AEE.jpeg", width=1000) 
+    st.image("AEE.jpeg", width=2000) 
 
 with col_text:
     st.title("🔋 Predicting current SoH percent")
