@@ -18,7 +18,7 @@ st.set_page_config(page_title="EV Battery SoH", page_icon="🔋")
 
 # --- 2. CHÈN LOGO VÀ TIÊU ĐỀ ---
 # Chia cột để logo nằm bên trái, tiêu đề nằm bên phải
-col_logo, col_text = st.columns([1, 4]) 
+col_logo, col_text = st.columns([1, 3]) 
 
 with col_logo:
     # Hệ thống sẽ tìm file AEE.jpeg trong cùng thư mục trên GitHub của bạn
