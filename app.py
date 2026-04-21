@@ -14,7 +14,7 @@ model, scaler, le_battery, le_driving = load_assets()
 expected_features = scaler.feature_names_in_
 
 # --- 1. CẤU HÌNH TRANG (PHẢI ĐẶT ĐẦU TIÊN) ---
-st.set_page_config(page_title="EV Battery SoH", page_icon="🔋")
+st.set_page_config(page_title="EV Battery SoH", page_icon="")
 
 # --- 2. CHÈN LOGO VÀ TIÊU ĐỀ ---
 # Chia cột để logo nằm bên trái, tiêu đề nằm bên phải
@@ -25,7 +25,7 @@ with col_logo:
     st.image("AEE.jpeg", width=500) 
 
 with col_text:
-    st.title("🔋 Predicting current SoH percent")
+    st.title("Predicting current SoH percent")
 
 st.write("Please enter the operating parameters below:")
 
